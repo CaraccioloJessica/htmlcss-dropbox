@@ -50,6 +50,7 @@ body{
 }
 
 .btn-blue{
+  cursor: pointer;
   font-size: 12px;
   color: #fff;
   padding: 5px 10px;
@@ -60,7 +61,7 @@ body{
 /* jumbo */
 #header-bottom{
   width: 100%;
-  min-height: 550px;
+  min-height: 530px;
   margin-top: 60px;
   background-color: #B4D0E7;
 }
@@ -89,6 +90,7 @@ body{
 }
 
 .btn-blue-text{
+  cursor: pointer;
   width: 170px;
   font-size: 12px;
   color: #fff;
@@ -105,7 +107,11 @@ body{
 
 .header-text-section i{
   font-size: 40px;
-  margin-top: 45px;
+  margin-top: 30px;
+}
+
+.header-text-section a{
+  color: black;
 }
 
 .header-img-section img {
@@ -113,3 +119,35 @@ body{
   height: auto;
   margin-top: 30px;
 }
+
+/* main */
+.container-business{
+  width: 50%;
+  min-height: 800px;
+  margin: auto;
+}
+
+.container-business h2{
+  font-size: 30px;
+  margin-top: 80px;
+}
+
+#check{
+  margin-top: 30px;
+}
+
+.fa-circle{
+  font-size: 12px;
+  color: gray;
+}
+
+#circle{
+  color: #0061ff;
+}
+
+.check-text{
+  font-size: 12px;
+  color: #505050;
+  margin-right: 40px;
+}
+
