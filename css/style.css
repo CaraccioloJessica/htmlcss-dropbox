@@ -158,8 +158,8 @@ body{
 }
 
 .card-plan{
-  width: calc(100% / 3);
-  min-height: 650px;
+  width: 100%;
+  min-height: 700px;
   margin-right: 20px;
   margin-top: 40px;
   border: 1px solid lightgray;
