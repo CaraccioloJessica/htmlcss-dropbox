@@ -159,7 +159,7 @@ body{
 
 .card-plan{
   width: calc(100% / 3);
-  min-height: 500px;
+  min-height: 650px;
   margin-right: 20px;
   margin-top: 40px;
   border: 1px solid lightgray;
@@ -183,7 +183,7 @@ body{
 }
 
 .card-text{
-  font-size: 10px;
+  font-size: 11px;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 15px;
@@ -198,3 +198,22 @@ body{
   color: gray;
 }
 
+.try{
+  font-size: 11px;
+  margin: 20px 20px 10px;
+  text-align: center;
+}
+
+#buy-link{
+  color: #0061ff;
+}
+
+#small-border{
+  width: 40px;
+  margin: 10px 20px;
+  border-bottom: 2px solid lightgray;
+}
+
+.fa-check{
+  color: #0061ff;
+}
