@@ -307,6 +307,10 @@ body{
 }
 
 /* esegui operazioni */
+.op{
+  min-height: 900px;
+}
+
 .op-descr{
   width: calc(100% / 3 - 20px);
   min-height: 300px;
@@ -326,4 +330,23 @@ body{
 
 .op-descr p{
   font-size: 11px;
+}
+
+/* business che utilizzano dropbox */
+.team{
+  min-height: 200px;
+}
+
+#team{
+  width: 70%;
+  height: auto;
+}
+
+#team h2{
+  margin-bottom: 40px;
+}
+
+#team a{
+  color: #0061ff;
+  font-size: 12px;
 }
