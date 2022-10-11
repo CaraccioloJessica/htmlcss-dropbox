@@ -350,3 +350,54 @@ body{
   color: #0061ff;
   font-size: 12px;
 }
+
+/* carousel */
+.full-container{
+  width: 100%;
+  min-height: 400px;
+}
+
+.team-logo{
+  width: 33.333%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+}
+
+.logo{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* logo color */
+.green{
+  background-color: #A2D39B;
+  border: 10px solid #D1E9CD;
+}
+
+.burgundy{
+  background-color: #61082B;
+}
+
+.blue{
+  background-color: #0093CE;
+}
+
+.red{
+  background-color: #FF1C1C;
+}
+
+.logo img{
+  width: 50%;
+  filter:  brightness(0) invert(1);
+}
+
+.team-descr{
+  width: 33.333%;
+  height: 400px;
+  float: left;
+  background-color: #F5F5F5;
+}
