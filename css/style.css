@@ -310,7 +310,7 @@ body{
 .op-descr{
   width: calc(100% / 3 - 20px);
   min-height: 300px;
-  margin: 40px 20px 40px 0;
+  margin: 30px 20px 20px 0;
   float: left;
 }
 
