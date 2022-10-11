@@ -124,9 +124,8 @@ body{
 /* main */
 .container-business{
   width: 50%;
-  min-height: 800px;
+  min-height: 500px;
   margin: auto;
-  flex-wrap: wrap;
 }
 
 .container-business h2{
@@ -266,4 +265,43 @@ body{
   line-height: 2;
   color: #fff;
   background-color: #0061ff;
+}
+
+/* dropbox partner */
+#partner{
+  margin-top: 60px;
+  width: 60%;
+  min-height: 350px;
+  float: left;
+}
+
+#partner img{
+  width:100%;
+  height: auto;
+}
+
+#partner-desc{
+  margin-top: 60px;
+  width: 40%;
+  min-height: 350px;
+  float: left;
+}
+
+#partner-desc h3{
+  font-size: 16px;
+  padding: 30px 34px 10px 30px;
+}
+
+#partner-desc p{
+  font-size: 11px;
+  padding: 0 34px 20px 30px;
+}
+
+.btn-white{
+  cursor: pointer;
+  margin-left: 30px;
+  font-size: 12px;
+  width: 120px;
+  padding: 5px 10px;
+  border: 1px solid gray;
 }
