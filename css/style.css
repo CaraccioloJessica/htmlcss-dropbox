@@ -412,9 +412,27 @@ body{
   filter:  brightness(0) invert(1);
 }
 
+/* logo center description */
 .team-descr{
   width: 33.333%;
   height: 400px;
+  padding: 40px;
+  font-size: 11px;
   float: left;
   background-color: #F5F5F5;
+}
+
+.team-descr img{
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+#linebr{
+  width: 20%;
+  margin-bottom: 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+.team-descr p{
+  margin-bottom: 40px;
 }
