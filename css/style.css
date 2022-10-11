@@ -499,22 +499,33 @@ body{
   margin-bottom: 40px;
 }
 
-.container-business ul{
+.faq ul{
   list-style: none;
 }
 
-.container-business li{
+.faq li{
+  cursor: pointer;
   font-size: 11px;
   padding: 30px 0;
   border-top: 1px solid lightgray;
 }
 
-.container-business ul:last-child{
+.faq ul:last-child{
   border-bottom: 1px solid lightgray;
 }
 
-.container-business li .fa-angle-down{
+.faq li .fa-angle-down{
   padding-left: 180px;
+}
+
+/* answer hover */
+.faq p{
+  display: none;
+  margin-top: 30px;
+}
+
+.faq li:hover p{
+  display: block;
 }
 
 /* footer */
