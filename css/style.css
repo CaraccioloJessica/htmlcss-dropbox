@@ -64,6 +64,10 @@ body{
   background-color: #0061ff;
 }
 
+.btn-blue:hover{
+  background-color: #498fff;
+}
+
 /* jumbo */
 #header-bottom{
   width: 100%;
@@ -104,6 +108,10 @@ body{
   padding: 7px 10px;
   margin: 20px 0;
   background-color: #0061ff;
+}
+
+.btn-blue-text:hover{
+  background-color: #498fff;
 }
 
 .header-img-section{
@@ -272,6 +280,10 @@ body{
   background-color: #0061ff;
 }
 
+.btn-contatta:hover{
+  background-color: #498fff;
+}
+
 /* dropbox partner */
 #partner{
   margin-top: 60px;
@@ -309,6 +321,10 @@ body{
   width: 120px;
   padding: 5px 10px;
   border: 1px solid gray;
+}
+
+.btn-white:hover{
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* esegui operazioni */
@@ -467,6 +483,10 @@ body{
   padding: 5px 20px;
   color: #000;
   background-color: #fff;
+}
+
+.free-trial a:hover{
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* faq section */
