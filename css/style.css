@@ -462,3 +462,32 @@ body{
   color: #000;
   background-color: #fff;
 }
+
+/* faq section */
+.faq {
+  min-height: 400px;
+}
+
+.faq h2{
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.container-business ul{
+  list-style: none;
+}
+
+.container-business li{
+  font-size: 11px;
+  padding: 30px 0;
+  border-top: 1px solid lightgray;
+}
+
+ul:last-child{
+  border-bottom: 1px solid lightgray;
+}
+
+li .fa-angle-down{
+  padding-left: 180px;
+}
+
