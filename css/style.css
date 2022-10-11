@@ -41,6 +41,11 @@ body{
   margin: 0 10px;
 }
 
+#top-left a:hover, #top-right a:hover{
+  padding-bottom: 18px;
+  border-bottom: 3px solid black;
+}
+
 /* right header */
 #top-right{
   width: 50%;
