@@ -372,7 +372,7 @@ body{
   align-items: center;
 }
 
-/* logo color */
+/* logo color left*/
 .green{
   background-color: #A2D39B;
   border: 10px solid #D1E9CD;
@@ -388,6 +388,23 @@ body{
 
 .red{
   background-color: #FF1C1C;
+}
+
+/* logo color right*/
+.redtwo{
+  background-color: #d5001f;
+}
+
+.ice{
+  background-color: #b4d0e7;
+}
+
+.bluetwo{
+  background-color: #0d2481;
+}
+
+.yellow{
+  background-color: #ffd830;
 }
 
 .logo img{
