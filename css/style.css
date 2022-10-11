@@ -420,6 +420,7 @@ body{
   font-size: 11px;
   float: left;
   background-color: #F5F5F5;
+  overflow:auto;
 }
 
 .team-descr img{
@@ -483,11 +484,72 @@ body{
   border-top: 1px solid lightgray;
 }
 
-ul:last-child{
+.container-business ul:last-child{
   border-bottom: 1px solid lightgray;
 }
 
-li .fa-angle-down{
+.container-business li .fa-angle-down{
   padding-left: 180px;
+}
+
+/* footer */
+#ftr-container{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #000;
+}
+
+#ftr-top{
+  width: 60%;
+  min-height: 200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.ftr-sect{
+  width: calc(100% / 5 - 20px);
+  height: 250px;
+  padding-top: 70px;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.ftr-sect h3{
+margin-bottom: 20px;
+}
+
+.ftr-sect ul{
+  list-style: none;
+  font-size: 11px;
+}
+
+.ftr-sect li{
+  margin-bottom: 10px;
+}
+
+/* bottom footer */
+#ftr-bottom{
+  width: 60%;
+  height: 60px;
+  margin: 0 auto;
+  color: #858585;
+  font-size: 12px;
+}
+
+#line{
+  width: 80px;
+  padding-bottom: 30px;
+  border-top: 1px solid #fff;
+}
+
+.fa-earth-americas{
+  margin-right: 5px;
+}
+
+.fa-caret-up{
+  font-size: 10px;
 }
 
