@@ -392,6 +392,7 @@ body{
 
 .logo{
   width: 50%;
+  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -564,10 +565,15 @@ margin-bottom: 20px;
 .ftr-sect ul{
   list-style: none;
   font-size: 11px;
+  cursor: pointer;
 }
 
 .ftr-sect li{
   margin-bottom: 10px;
+}
+
+.ftr-sect li:hover{
+  text-decoration: underline;
 }
 
 /* bottom footer */
