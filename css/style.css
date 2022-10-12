@@ -379,12 +379,12 @@ body{
 /* carousel */
 .full-container{
   width: 100%;
-  min-height: 400px;
+  height: auto;
 }
 
 .team-logo{
   width: 33.33%;
-  height: 400px;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   float: left;
@@ -392,7 +392,7 @@ body{
 
 .logo{
   width: 50%;
-  height: 200px;
+  height: calc(100vw / 6);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -441,7 +441,7 @@ body{
 /* logo center description */
 .team-descr{
   width: 33.33%;
-  height: 400px;
+  height: 33.33vw;
   padding: 40px;
   font-size: 11px;
   float: left;
