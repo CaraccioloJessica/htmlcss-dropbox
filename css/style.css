@@ -383,7 +383,7 @@ body{
 }
 
 .team-logo{
-  width: 33.333%;
+  width: 33.33%;
   height: 400px;
   display: flex;
   flex-wrap: wrap;
@@ -392,7 +392,7 @@ body{
 
 .logo{
   width: 50%;
-  height: 50%;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -440,7 +440,7 @@ body{
 
 /* logo center description */
 .team-descr{
-  width: 33.333%;
+  width: 33.33%;
   height: 400px;
   padding: 40px;
   font-size: 11px;
