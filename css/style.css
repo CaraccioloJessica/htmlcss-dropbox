@@ -43,7 +43,7 @@ body{
 
 #top-left a:hover, #top-right a:hover{
   padding-bottom: 18px;
-  border-bottom: 3px solid black;
+  border-bottom: 2px solid black;
 }
 
 /* right header */
@@ -219,6 +219,10 @@ body{
 
 #buy-link{
   color: #0061ff;
+}
+
+#buy-link:hover{
+  text-decoration: none;
 }
 
 #small-border{
