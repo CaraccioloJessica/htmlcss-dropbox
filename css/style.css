@@ -78,7 +78,7 @@ body{
 }
 
 #header-container{
-  width: 60%;
+  width: 60vw;
   min-height: 500px;
   margin: auto;
 }
